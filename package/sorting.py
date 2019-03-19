@@ -9,14 +9,13 @@ def bubble_sort(items):
     '''Return array of items, sorted in ascending order'''
 
 def merge_sort(items):
-    def mergeSort(items):
     if len(items)>1:
         mid = len(items)//2
         lefthalf = items[:mid]
         righthalf = items[mid:]
 
-        mergeSort(lefthalf)
-        mergeSort(righthalf)
+        merge_sort(lefthalf)
+        merge_sort(righthalf)
 
         i=0
         j=0
