@@ -47,9 +47,9 @@ def quick_sort(items):
     equal = []
     greater = []
 
-    if len(array) > 1:
-        pivot = array[0]
-        for i in array:
+    if len(items) > 1:
+        pivot = items[0]
+        for i in items:
             if i < pivot:
                 less.append(i)
             elif i == pivot:
@@ -60,6 +60,6 @@ def quick_sort(items):
         return quick_sort(less)+quick_sort(equal)+quick_sort(greater)
 
     else:
-        return array
+        return items
 
 '''Return array of items, sorted in ascending order'''        
