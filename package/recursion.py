@@ -27,7 +27,7 @@ def fibonacci(n):
 def factorial(n):
 # factorial function to find the factorial of a number n.
 
-    factorial = 1
+    factor = 1
 
 # check if the number is negative, positive or zero
     if n < 0:
@@ -36,10 +36,10 @@ def factorial(n):
         print("The factorial of 0 is 1")
     else:
         for i in range(1,n + 1):
-            factorial = factorial*i
+            factor = factor*i
 
 
-    print("The factorial of",n,"is",factorial)
+    return factorial
 
 #Return n!
 
