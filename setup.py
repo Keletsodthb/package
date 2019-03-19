@@ -8,6 +8,6 @@ setup(
     description='Python packages I created',
     long_description=open('README.md').read(),
     install_requires=['numpy'],
-    url='https://github.com/Keletso/pythonpackage',
+    url='https://github.com/Keletso/package',
     author='Keletso Dithebe',
     author_email='keletsodthb@gmail.com')
