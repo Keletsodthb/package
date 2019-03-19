@@ -7,13 +7,13 @@ def sum_array(array):
 def fibonacci(n):
     #  Display the nth number in Fibonacci sequence
 # first two terms
-    n1 = 0
+    n1 = 1
     n2 = 1
 # check if the number of terms is valid
-    if n <= 0:
-        print("Please enter a positive integer")
+    if n == 0:
+        return 0
     elif n == 1:
-        print(n1)
+        return n1
     else:
         for count in range(2,n) :
               nth = n1 + n2
@@ -33,13 +33,13 @@ def factorial(n):
     if n < 0:
         print("Sorry, factorial does not exist for negative numbers")
     elif n == 0:
-        print("The factorial of 0 is 1")
+        return 1
     else:
         for i in range(1,n + 1):
             factor = factor*i
 
 
-    return factorial
+    return factor
 
 #Return n!
 
